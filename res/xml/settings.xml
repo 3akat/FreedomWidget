@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/quit_info">
+        <Preference
+                android:key="datePicker"
+                android:title="@string/date_title"
+                android:summary="@string/date_summary">
+        </Preference>
+        <Preference
+                android:key="timePicker"
+                android:title="@string/time_title"
+                android:summary="@string/time_summary">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/money_info">
+        <ListPreference
+                android:key="currency"
+                android:title="@string/currency"
+                android:summary="@string/currency_summary"
+                android:entries="@array/currency_list"
+                android:entryValues="@array/currency_list">
+        </ListPreference>
+        <EditTextPreference
+                android:key="pack_cost"
+                android:title="@string/pack_cost_title"
+                android:summary="@string/pack_cost_summary"
+                android:numeric="decimal">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/cigarettes_info">
+        <EditTextPreference
+                android:key="cig_per_day"
+                android:title="@string/cigarettes_per_day_title"
+                android:summary="@string/cigarettes_per_day_summary"
+                android:numeric="integer"
+                android:maxLength="3">
+        </EditTextPreference>
+        <EditTextPreference
+                android:key="cig_in_a_pack"
+                android:title="@string/cigarettes_in_a_pack_title"
+                android:summary="@string/cigarettes_in_a_pack_summary"
+                android:numeric="integer"
+                android:maxLength="5">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

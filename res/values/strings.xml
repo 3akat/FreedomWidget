@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Freedom</string>
+
+
+    <string name="quit_info">Quit info</string>
+    <string name="date_summary">Quit date</string>
+    <string name="date_title">Date</string>
+    <string name="time_summary">Quit time</string>
+    <string name="time_title">Time</string>
+
+    <string name="money_info">Money info</string>
+    <string name="currency_summary">Select your currency</string>
+    <string name="currency">Currency</string>
+    <string name="pack_cost_title">Pack cost</string>
+    <string name="pack_cost_summary">The cost of a pack of cigarettes</string>
+
+    <string name="cigarettes_info">Cigarettes info</string>
+    <string name="cigarettes_in_a_pack_title">Cigarettes in a pack</string>
+    <string name="cigarettes_in_a_pack_summary">The number of cigarettes in a pack</string>
+    <string name="cigarettes_per_day_title">Cigarettes per day</string>
+    <string name="cigarettes_per_day_summary">The number of cigarettes per day</string>
+
+    <string name="btn_update">Update</string>
+    <string name="dont_smoke_for">I dont smoke for:</string>
+    <string name="money_saved">Saved money:</string>
+
+
+    <string-array name="currency_list">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>CHF</item>
+        <item>MXN</item>
+        <item>SEK</item>
+        <item>INR</item>
+        <item>RUB</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+
+</resources>

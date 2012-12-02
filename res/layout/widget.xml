@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="216dp"
+                android:layout_height="144dp"
+                android:background="@drawable/background"
+                android:id="@+id/widgetLayout"
+        >
+
+    <ImageView
+            android:id="@+id/ivClock"
+            android:src="@drawable/ic_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cig"
+            android:id="@+id/ivCig"
+            android:layout_alignLeft="@+id/ivClock" android:layout_below="@+id/ivClock"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_money"
+            android:id="@+id/ivMoney"
+            android:layout_alignLeft="@+id/ivClock" android:layout_below="@+id/ivCig"/>
+    <ImageView
+            android:id="@+id/btnSett"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_prefs"
+            android:layout_alignLeft="@+id/ivClock" android:layout_below="@+id/ivMoney"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_update"
+            android:id="@+id/btnUpd"
+            android:layout_alignParentRight="true" android:layout_below="@+id/ivMoney"/>
+    <TextView
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvPeriod" android:layout_alignRight="@+id/btnUpd" android:layout_alignTop="@+id/ivClock"/>
+    <TextView
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tvMoney" android:layout_alignRight="@+id/btnUpd" android:layout_below="@+id/ivClock"/>
+    <TextView
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCigCount" android:layout_alignRight="@+id/btnUpd" android:layout_below="@+id/ivCig"/>
+</RelativeLayout>
